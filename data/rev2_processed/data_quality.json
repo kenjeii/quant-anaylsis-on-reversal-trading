@@ -1,0 +1,423 @@
+{
+  "symbols": {
+    "NVDA": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.261297,
+      "hl_anomaly_bars": 1
+    },
+    "AMD": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.375144,
+      "hl_anomaly_bars": 0
+    },
+    "AVGO": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.244326,
+      "hl_anomaly_bars": 0
+    },
+    "QCOM": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.151853,
+      "hl_anomaly_bars": 0
+    },
+    "MU": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.192916,
+      "hl_anomaly_bars": 0
+    },
+    "TXN": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.194321,
+      "hl_anomaly_bars": 0
+    },
+    "AAPL": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.153288,
+      "hl_anomaly_bars": 0
+    },
+    "MSFT": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.155067,
+      "hl_anomaly_bars": 0
+    },
+    "ORCL": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.359488,
+      "hl_anomaly_bars": 0
+    },
+    "CRM": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.225805,
+      "hl_anomaly_bars": 0
+    },
+    "ADBE": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.167932,
+      "hl_anomaly_bars": 0
+    },
+    "CSCO": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.153922,
+      "hl_anomaly_bars": 0
+    },
+    "META": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.263901,
+      "hl_anomaly_bars": 0
+    },
+    "GOOGL": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.126412,
+      "hl_anomaly_bars": 0
+    },
+    "NFLX": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.351119,
+      "hl_anomaly_bars": 0
+    },
+    "DIS": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.135949,
+      "hl_anomaly_bars": 0
+    },
+    "CMCSA": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.167242,
+      "hl_anomaly_bars": 0
+    },
+    "TMUS": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.132683,
+      "hl_anomaly_bars": 0
+    },
+    "AMZN": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.153206,
+      "hl_anomaly_bars": 0
+    },
+    "TSLA": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.2269,
+      "hl_anomaly_bars": 1
+    },
+    "HD": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.088506,
+      "hl_anomaly_bars": 0
+    },
+    "MCD": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.120762,
+      "hl_anomaly_bars": 0
+    },
+    "NKE": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.199809,
+      "hl_anomaly_bars": 0
+    },
+    "SBUX": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.244969,
+      "hl_anomaly_bars": 0
+    },
+    "JPM": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.135392,
+      "hl_anomaly_bars": 0
+    },
+    "BAC": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.141917,
+      "hl_anomaly_bars": 0
+    },
+    "GS": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.130978,
+      "hl_anomaly_bars": 0
+    },
+    "MS": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.12334,
+      "hl_anomaly_bars": 0
+    },
+    "BLK": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.134688,
+      "hl_anomaly_bars": 0
+    },
+    "V": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.105991,
+      "hl_anomaly_bars": 0
+    },
+    "UNH": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.223797,
+      "hl_anomaly_bars": 0
+    },
+    "JNJ": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.075917,
+      "hl_anomaly_bars": 0
+    },
+    "LLY": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.148696,
+      "hl_anomaly_bars": 0
+    },
+    "ABBV": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.125664,
+      "hl_anomaly_bars": 0
+    },
+    "MRK": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.125989,
+      "hl_anomaly_bars": 1
+    },
+    "TMO": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.106719,
+      "hl_anomaly_bars": 0
+    },
+    "CAT": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.116346,
+      "hl_anomaly_bars": 0
+    },
+    "HON": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.11194,
+      "hl_anomaly_bars": 0
+    },
+    "UNP": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.119307,
+      "hl_anomaly_bars": 0
+    },
+    "LMT": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.118035,
+      "hl_anomaly_bars": 0
+    },
+    "DE": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.140722,
+      "hl_anomaly_bars": 0
+    },
+    "RTX": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.130805,
+      "hl_anomaly_bars": 0
+    },
+    "XOM": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.126602,
+      "hl_anomaly_bars": 0
+    },
+    "CVX": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.124385,
+      "hl_anomaly_bars": 0
+    },
+    "COP": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.143542,
+      "hl_anomaly_bars": 0
+    },
+    "SLB": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.19908,
+      "hl_anomaly_bars": 0
+    },
+    "EOG": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.165703,
+      "hl_anomaly_bars": 0
+    },
+    "MPC": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.154845,
+      "hl_anomaly_bars": 0
+    },
+    "SPY": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.105019,
+      "hl_anomaly_bars": 0
+    },
+    "SMH": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.171603,
+      "hl_anomaly_bars": 0
+    },
+    "XLK": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.134194,
+      "hl_anomaly_bars": 0
+    },
+    "XLC": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.088355,
+      "hl_anomaly_bars": 0
+    },
+    "XLY": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.108881,
+      "hl_anomaly_bars": 0
+    },
+    "XLF": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.083333,
+      "hl_anomaly_bars": 0
+    },
+    "XLV": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.054845,
+      "hl_anomaly_bars": 0
+    },
+    "XLI": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.088816,
+      "hl_anomaly_bars": 0
+    },
+    "XLE": {
+      "bars": 1521,
+      "first_date": "2020-11-02",
+      "last_date": "2026-11-20",
+      "max_tradable_jump": 0.142364,
+      "hl_anomaly_bars": 0
+    }
+  },
+  "indices": {
+    "INDEX_VIX": {
+      "bars": 2516,
+      "first_date": "2016-11-21",
+      "last_date": "2026-11-20",
+      "alignment_to_spy": 1.0
+    },
+    "INDEX_VIX3M": {
+      "bars": 2514,
+      "first_date": "2016-11-21",
+      "last_date": "2026-11-20",
+      "alignment_to_spy": 1.0
+    }
+  },
+  "master_calendar": {
+    "source": "SPY_daily.csv",
+    "bars": 1521,
+    "first_date": "2020-11-02",
+    "last_date": "2026-11-20"
+  }
+}

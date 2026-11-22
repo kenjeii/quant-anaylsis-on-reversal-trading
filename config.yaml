@@ -1,0 +1,156 @@
+project:
+  name: yahoo_15m_extreme_reversal_smoke_test
+  timezone: America/New_York
+  session_start: "09:30"
+  session_end: "16:00"
+  force_exit: "15:45"
+  initial_equity: 100000.0
+  mode: simplified_yahoo_smoke_test
+  not_profit_conclusion: true
+
+data:
+  symbols:
+    trade: [NVDA, MU]
+    benchmark: QQQ
+    volatility: "^VIX"
+    universes:
+      baseline: [NVDA, MU]
+      extended: [NVDA, MU, AMD, AVGO, AAPL, MSFT, META, AMZN, GOOGL, TSLA, NFLX, QCOM]
+  signal_timeframe: 15Min
+  display_timeframe: 1Hour
+  test_trading_days: 30
+  intraday_warmup_trading_days: 30
+  daily_history_years: 2
+  intraday_warmup_days_original: 60
+  intraday_warmup_days_used: 20
+  provider: Yahoo Finance chart v8
+  adjustment_policy: provider_quote_ohlc_no_fabricated_adjustment
+  extended_hours: false
+
+features:
+  daily_z_window: 60
+  slot_z_window: 20
+  slot_z_window_original: 60
+  car_z_window: 20
+  car_z_window_original: 60
+  atr_daily_window: 20
+  atr_15m_window: 20
+  beta_window_bars: 520
+  beta_window_days: 20
+  rvol_window: 20
+  robust_mad_floor: 0.0005
+  qqq_trend_bars: 8
+  qqq_rv_bars: 26
+  qqq_rv_percentile_days: 60
+  qqq_rv_percentile_days_original: 252
+
+event:
+  mode: score                  # score | all_and
+  minimum_raw_move: 0.03       # used by V0 all_and control
+  daily_z: 2.5                 # used by V0 all_and control
+  slot_z: 2.5                  # used by V0 all_and control
+  four_bar_move: 0.02          # used by V0 all_and control
+  residual_z: 2.0              # used by V0 all_and control
+  move_atr: 1.75               # used by V0 all_and control
+  relative_volume: 1.25        # used by V0 all_and control
+  minimum_abnormal_move: 0.0125
+  minimum_event_score: 4
+  daily_z_first_level: 1.75
+  daily_z_second_level: 2.50
+  slot_z_score: 2.00
+  residual_z_score: 1.50
+  move_atr_score: 1.25
+  relative_volume_score: 1.10
+  four_bar_residual_move: 0.015
+  extreme_zone_fraction: 0.10
+  maximum_event_wait_bars: 12
+  fast_event_expiry_bars: 8
+  stale_zcar: 0.75
+  maximum_preentry_reversal: 0.60
+  latest_event_time: "14:30"
+  latest_confirmation_time: "15:00"
+
+confirmation:
+  mode: two_of_three           # original | two_of_three | two_of_three_fast
+  retracement_fraction: 0.25   # used by original mode
+  fast_score_threshold: 6
+  fast_retracement: 0.15
+  standard_retracement: 0.20
+  confirmation_votes_required: 2
+  ema_length: 4
+  momentum_bars: 2
+  entry_delay_bars: 1
+  latest_entry_time: "15:15"
+
+signal_tiers:
+  tier_a:
+    minimum_score: 6
+    size_multiplier: 1.00
+  tier_b:
+    minimum_score: 5
+    size_multiplier: 0.75
+  tier_c:
+    minimum_score: 4
+    size_multiplier: 0.50
+
+risk:
+  risk_per_trade: 0.0025
+  maximum_total_open_risk: 0.0075
+  maximum_position_value: 0.20
+  maximum_simultaneous_positions: 2
+  correlated_group_max_risk: 0.00375
+  correlated_window_bars: 2
+  stop_atr_buffer: 0.20
+  minimum_stop_atr: 0.40
+  maximum_stop_atr: 2.25
+  minimum_tp1_rr: 0.75
+  minimum_tp2_rr: 1.25
+  tp1_r_multiple: 1.00
+  tp2_r_multiple: 1.75
+
+exit:
+  tp1_retracement: 0.50
+  tp1_position_fraction: 0.50
+  tp2_retracement: 0.75
+  expected_hold_floor: 2
+  expected_hold_cap: 12
+  expected_hold_prior: 30
+  absolute_max_hold_bars: 12
+  progress_check_half_r: 0.25
+  progress_check_full_r: 0.50
+  close_all_end_of_day: true
+
+regime:
+  mode: revised                # revised | original
+  qqq_daily_move: 0.015
+  qqq_vwap_gap: 0.0075
+  qqq_trend_bars: 8
+  qqq_trend_r2: 0.65
+  qqq_trend_return: 0.01
+  qqq_rv_crisis_percentile: 0.90
+  vix_cautious: 20
+  vix_stressed: 30
+  prohibition_daily_move: 0.025
+  prohibition_trend_r2: 0.75
+  prohibition_vwap_gap: 0.01
+  multipliers:
+    normal: 1.00
+    cautious: 0.75
+    high_stress: 0.50
+    severe: 0.25
+    crisis: 0.00
+
+costs:
+  fee_round_trip_bps: 15
+  fee_scenarios_bps: [5, 15, 30]
+  slippage_min_bps: 2
+  slippage_atr_fraction: 0.05
+  short_borrow_annual: 0.03
+  trading_hours_per_day: 6.5
+  trading_days_per_year: 252
+  same_bar_policy: stop_first
+
+oracle:
+  forward_window_bars: 8
+  true_reversal: 0.50
+  partial_reversal: 0.25

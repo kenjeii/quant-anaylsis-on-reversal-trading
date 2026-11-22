@@ -1,0 +1,224 @@
+{
+  "NVDA_15m": {
+    "raw_bars": 48975,
+    "rth_bars": 19942,
+    "excluded_non_rth_bars": 29033,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 0,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "NVDA_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "MU_15m": {
+    "raw_bars": 47733,
+    "rth_bars": 19935,
+    "excluded_non_rth_bars": 27798,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 7,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "MU_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "AMD_15m": {
+    "raw_bars": 48866,
+    "rth_bars": 19942,
+    "excluded_non_rth_bars": 28924,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 0,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "AMD_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "AVGO_15m": {
+    "raw_bars": 44595,
+    "rth_bars": 19931,
+    "excluded_non_rth_bars": 24664,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 11,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "AVGO_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "AAPL_15m": {
+    "raw_bars": 48834,
+    "rth_bars": 19942,
+    "excluded_non_rth_bars": 28892,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 0,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "AAPL_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "MSFT_15m": {
+    "raw_bars": 47907,
+    "rth_bars": 19939,
+    "excluded_non_rth_bars": 27968,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 3,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "MSFT_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "META_15m": {
+    "raw_bars": 47200,
+    "rth_bars": 19937,
+    "excluded_non_rth_bars": 27263,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 5,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "META_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "AMZN_15m": {
+    "raw_bars": 48808,
+    "rth_bars": 19942,
+    "excluded_non_rth_bars": 28866,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 0,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "AMZN_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "GOOGL_15m": {
+    "raw_bars": 48444,
+    "rth_bars": 19941,
+    "excluded_non_rth_bars": 28503,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 1,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "GOOGL_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "TSLA_15m": {
+    "raw_bars": 48993,
+    "rth_bars": 19942,
+    "excluded_non_rth_bars": 29051,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 0,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "TSLA_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "NFLX_15m": {
+    "raw_bars": 39976,
+    "rth_bars": 19917,
+    "excluded_non_rth_bars": 20059,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 25,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "NFLX_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "QCOM_15m": {
+    "raw_bars": 41504,
+    "rth_bars": 19910,
+    "excluded_non_rth_bars": 21594,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 32,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "QCOM_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "QQQ_15m": {
+    "raw_bars": 48981,
+    "rth_bars": 19942,
+    "excluded_non_rth_bars": 29039,
+    "duplicate_timestamps": 0,
+    "invalid_ohlc_bars": 0,
+    "missing_rth_bars": 0,
+    "first_bar": "2023-11-01 09:30:00",
+    "last_bar": "2026-11-20 15:45:00",
+    "trading_days": 767
+  },
+  "QQQ_1d": {
+    "bars": 767,
+    "first_date": "2023-11-01 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "INDEX_VIX_1d": {
+    "bars": 1305,
+    "first_date": "2021-11-22 00:00:00",
+    "last_date": "2026-11-20 00:00:00"
+  },
+  "window": {
+    "first_trading_day": "2023-11-01",
+    "last_trading_day": "2026-11-20",
+    "trading_days": 767,
+    "test_start_date": "2024-12-01",
+    "warmup_days_available": 272,
+    "original_warmup_days_required": 60,
+    "shortfall_days": 0
+  }
+}
